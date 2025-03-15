@@ -1,4 +1,4 @@
-# UEB - The NSFW browser that DOESNT log you.
+# UEB - The NSFW search engine that DOESNT log your searches.
 
 > This project was just made to laugh, please dont take it seriously.
 
