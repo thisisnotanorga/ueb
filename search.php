@@ -1,7 +1,7 @@
 <?php
 require_once 'config.php';
 include 'includes/header-search.php';
-include 'scraper.php';
+include 'scraper/index.php';
 
 $query = '';
 $videoResults = [];
@@ -25,7 +25,7 @@ if (isset($_GET['q'])) {
         }
 
         try {
-            $imageResults = scrapeRule34($query, $page, $limit);
+            $imageResults = scrapeImages($query, $page, $limit);
         } catch (Exception $e) {
             $imageError = "Error retrieving images.";
         }
